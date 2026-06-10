@@ -1,0 +1,16 @@
+# render.yaml — Render Static Site blueprint.
+# Verify field names against the current spec: https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: nus-ee-planner
+    runtime: static
+    buildCommand: npm ci && npm run build
+    staticPublishPath: dist
+    pullRequestPreviewsEnabled: true
+    routes:
+      - type: rewrite # SPA fallback: send all routes to index.html
+        source: /*
+        destination: /index.html
+    envVars:
+      - key: NODE_VERSION
+        value: '20'
