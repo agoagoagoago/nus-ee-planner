@@ -7,6 +7,8 @@ Engineering (AY2025/26 cohort)** students understand the curriculum, find a spec
 that fits their interests, and plan a balanced four-year module schedule with smart warnings about
 overloaded semesters, prerequisites and graduation requirements.
 
+**🔗 Live site: <https://nus-ee-planner.onrender.com>**
+
 > ⚠️ **Unofficial planning aid — not affiliated with or endorsed by NUS.** Difficulty/workload/
 > intensity ratings are **heuristic estimates** created for this tool, not official NUS data and not
 > based on grade distributions. Verify all requirements against the official NUS course catalogue /
@@ -84,7 +86,7 @@ The repo includes `render.yaml`. In Render: **New → Blueprint**, connect this 
 5. Set env var `NODE_VERSION=20`. Create.
 6. Put the resulting `*.onrender.com` URL here:
 
-   **Live site:** _add after first deploy_
+   **Live site:** <https://nus-ee-planner.onrender.com>
 
 ## Tech stack
 
